@@ -1,0 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+section {
+    width: 200px;
+    height: 100%;
+}

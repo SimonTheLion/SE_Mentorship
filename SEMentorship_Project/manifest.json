@@ -1,0 +1,27 @@
+{
+    "name": "My Chrome Extension For Klaviyo APIs",
+    "version": "0.1.0",
+    "description": "Basic Chrome Extension",
+    "permissions": [],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["popup.js"]
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": [],
+        "matches": []
+      }
+    ],
+    "action": {
+      "default_title": "Basic Chrome Extension",
+      "default_popup": "index.html"
+    },
+    "manifest_version": 3
+}
