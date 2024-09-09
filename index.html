@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome Extension</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <h1>Average Time to First Order<img src="https://logosandtypes.com/wp-content/uploads/2022/04/klaviyo.svg" alt="Klaviyo Logo" style="height: 30px; vertical-align: middle; margin-left: 10px;"></h1>
+    <form id="inputPrivateKey" style="display: block">
+        <label for="inputKey">Enter your Private Key</label>
+        <input type="text" id="inputKey" name="inputKey">
+        <button type="submit" id="submitButton">Save</button>
+    </form>
+    <span id="savedValue"></span>
+    <div id="listNames"></div>
+</section>
+<script type="module" src="averageDaysToFirstOrder.js"></script>
+<script type="module" src="managePrivateKey.js"></script>
+</body>
+</html>
